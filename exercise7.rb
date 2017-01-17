@@ -25,3 +25,9 @@ puts students.keys
 students.each do |cohort, class_size|
   puts "cohort: #{class_size * 1.05}"
 end
+
+puts "Deleted second cohort:"
+
+students.delete(:cohort2)
+
+name_number(students)
