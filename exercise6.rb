@@ -1,5 +1,10 @@
 grocery_list = ["jerky", "ice cream", "beer", "diarrhea"]
+grocery_list<<"rice"
 
-grocery_list.each do |grocery_item|
-puts "* #{grocery_item}" 
+def grocery_output(food)
+  food.each do |item|
+    puts "* #{item}"
+  end
 end
+
+grocery_output(grocery_list)
