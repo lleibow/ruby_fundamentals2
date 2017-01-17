@@ -8,3 +8,5 @@ def grocery_output(food)
 end
 
 grocery_output(grocery_list)
+
+puts grocery_list.length
