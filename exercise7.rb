@@ -21,3 +21,7 @@ students[:cohort4] = 43
 name_number(students)
 
 puts students.keys
+
+students.each do |cohort, class_size|
+  puts "cohort: #{class_size * 1.05}"
+end
