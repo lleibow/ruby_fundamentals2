@@ -9,4 +9,9 @@ end
 
 grocery_output(grocery_list)
 
-puts grocery_list.length
+puts "The total number of items on the list is #{grocery_list.length}"
+
+if grocery_list.include?("bananas")
+  puts "You need to pick up bananas"
+else puts "You don't need to pick up bananas today"
+end
