@@ -16,6 +16,14 @@ if grocery_list.include?("bananas")
 else puts "You don't need to pick up bananas today"
 end
 
-puts grocery_list[1]
+puts "The second item on the list is #{grocery_list[1]}"
+
+puts "List sorted alphabetically:"
 
 grocery_output(grocery_list.sort)
+
+puts "List without rice:"
+
+grocery_list.pop
+
+grocery_output(grocery_list)
